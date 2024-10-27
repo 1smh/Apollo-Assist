@@ -48,3 +48,11 @@ Geomagnetic Disturbance 3D Heat Map and Graphs:
 - **Run:**
   ```bash
   streamlit run Home.py
+
+## 📱Devpost
+
+https://devpost.com/software/apollo-assist
+
+## 🕒 Main Repo
+
+https://github.com/PythonDweeb/ApolloAssist
