@@ -32,7 +32,7 @@ def get_nearest_kp_value(geolocation, csv_data):
     nearest_row = csv_data.loc[csv_data['distance'].idxmin()]
     return nearest_row['IGRF_DECL']
 
-# Upload vectors to Weaviate
+# Upload vectors to weaviate
 def upload_vectors(csv_data, embeddings, client):
     vector_store = WeaviateVectorStore(client=client, index_name="geo_data", text_key="description", embedding=embeddings)
     limited_data = csv_data.head(176)
